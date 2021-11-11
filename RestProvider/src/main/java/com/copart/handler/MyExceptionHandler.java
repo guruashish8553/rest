@@ -13,6 +13,7 @@ import com.copart.model.ErrorType;
 public class MyExceptionHandler {
 
 	//@ExceptionHandler(StudentNotFoundException.class)
+	//required for further changes
 	public ResponseEntity<ErrorType> handleStudentNotFoundException(StudentNotFoundException ex){
 		System.out.println(HttpStatus.INTERNAL_SERVER_ERROR.value());
 		return new ResponseEntity<ErrorType>(
