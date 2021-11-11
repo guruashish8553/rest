@@ -9,6 +9,8 @@ import com.copart.model.StudentInfo;
 @SpringBootApplication
 public class YamlFilePropertyReaderApplication {
 
+	//Finish
+	
 	public static void main(String[] args) {
 		ApplicationContext ctx=SpringApplication.run(YamlFilePropertyReaderApplication.class, args);
 		StudentInfo studentInfo = ctx.getBean(StudentInfo.class);
