@@ -8,6 +8,7 @@ import lombok.Data;
 @Data
 public class Address {
 
+	//minor changes
 	private int streenNo;
 	private int pin;
 	private String area;
